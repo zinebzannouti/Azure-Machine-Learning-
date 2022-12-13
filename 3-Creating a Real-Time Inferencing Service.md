@@ -42,4 +42,33 @@
 
 ![a](https://user-images.githubusercontent.com/78825764/207322923-d1f1420e-951b-40db-9d5e-64019aaa5f37.PNG)
 
+- *Examinez votre espace de travail dans Azure Machine Learning Studio et affichez la page Endpoints, qui affiche les services déployés dans votre espace de travail.*
+
+![a](https://user-images.githubusercontent.com/78825764/207325285-f561d19c-e887-4d77-9cec-1583aceb0c25.PNG)
+
+## 3-Use the web service
+
+**Une fois le service déployé, vous pouvez désormais le consommer à partir d'une application cliente.**
+
+- *Vous pouvez testez par l'exécution de cette partie de notebook*
+
+
+![a](https://user-images.githubusercontent.com/78825764/207327144-0ff4369d-2ecf-4399-b734-fecd302a886c.PNG)
+
+- *Vous pouvez aussi tester sur l'interface Endpoints de Azure .*
+- *Go to Endpoints >diabetes-service*
+
+![a](https://user-images.githubusercontent.com/78825764/207327765-a51a690f-869d-400b-8066-445166ffdd4e.PNG)
+
+
+- *Copier et coller cette data pour le test :*
+
+```
+{"data": [[2,180,74,24,21,23.9091702,1.488172308,22],[0,148,58,11,179,39.19207553,0.160829008,45]]}
+```
+
+![a](https://user-images.githubusercontent.com/78825764/207328207-8c4db516-7e79-4a2e-a299-98b2bc6822b1.PNG)
+
+
+
 
